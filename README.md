@@ -66,13 +66,12 @@ IchigoJamのファームウェアバージョンが1.2.1以前で利用の場合
 rcmd COMn 命令文   
 ####例
 rcmd COM5 LIST  
-rcmd COM5 PRINT \"Hello World\"  
-rcmd COM5 \"PRINT 1+1\"  
+rcmd COM5 PRINT ￥"Hello World￥"   
 rcmd COM5 PRINT 1+1  
 rcmd COM5 LIST > hogehoge.txt  
 #### 説明  
 シリアル通信経由で、IchigoJam上でコマンドを実行します。  
 実行した出力結果はシリアル通信でパソコンで取り込み、表示します。  
-PRINT文などで使う "(ダブルクォーテーション)文字を使う場合は、\” とします。  
+PRINT文などで使う "(ダブルクォーテーション)文字を使う場合は、エスケープシーケンス文字￥+” とします。  
 本コマンドは、ゲーム等のスクリーン座標を制御するプログラムの実行には向きません。  
 
