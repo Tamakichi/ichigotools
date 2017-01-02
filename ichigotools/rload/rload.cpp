@@ -11,19 +11,20 @@
 // 修正 2015/02/08 by たま吉さん,送信1バイトごとにウェイトするように修正
 // 修正 2016/12/30 by たま吉さん,1文字単位のウェイト時間、1行単位の待ち時間のオプション指定出来るように修正
 // 修正 2016/12/31 by たま吉さん,デフォルトの1文字単位のウェイト時間、1行単位の待ち時間をIchigoJam1.2.1用に変更
+// 修正 2017/01/03 by たま吉さん,デフォルトの1文字単位のウェイト時間、1行単位の待ち時間の調整
 // 
 
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-#define VAR_STR		"1.07"			// バージョン
+#define VAR_STR		"1.08"			// バージョン
 #define RD_BUFSIZE	2048			// 受信バッファサイズ
 #define SD_BUFSIZE	2948			// 送信バッファサイズ
 #define COM_SPEED	115200			// シリアル通信速度
 #define BLOCKSIZE	1				// 送信単位
-#define LINE_WAIT	18				// 行単位のウェイト(ms)
-#define CHAR_WAIT	18				// 1文字単位のウェイト(ms)
+#define LINE_WAIT	16				// 行単位のウェイト(ms)
+#define CHAR_WAIT	16				// 1文字単位のウェイト(ms)
 #define MAXLINENUM	512				// 1行の最大文字数
 
 // メインルーチン

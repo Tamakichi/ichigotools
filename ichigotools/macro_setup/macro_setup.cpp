@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define VAR_STR		"1.07"			// バージョン
+#define VAR_STR		"1.08"			// バージョン
 
 // メインルーチン
 int main(int argc, char* argv[]) {

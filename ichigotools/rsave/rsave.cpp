@@ -15,9 +15,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define VAR_STR		"1.07"			// バージョン
+#define VAR_STR		"1.08"			// バージョン
 #define RD_BUFSIZE	2048			// 受信バッファサイズ
-#define SD_BUFSIZE	2948			// 送信バッファサイズ
+#define SD_BUFSIZE	2048			// 送信バッファサイズ
 #define COM_SPEED	115200			// シリアル通信速度
 #define BLOCKSIZE	1				// 送信単位
 
