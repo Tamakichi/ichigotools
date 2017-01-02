@@ -8,8 +8,7 @@
 @rem **********************************************************
 set port=com5
 set sakura=C:\tools\sakura2-1-1-3_x64
-set macro=%sakura\macro
+set macro=%sakura%\macro
 @rem #### ˆÈ‰º‚Í•ÏX‹Ö~! ####
-md %macro%
 cd /d %~dp0
 macro_setup.exe %port% %sakura% %macro%
