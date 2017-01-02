@@ -22,8 +22,8 @@
 #define SD_BUFSIZE	2948			// 送信バッファサイズ
 #define COM_SPEED	115200			// シリアル通信速度
 #define BLOCKSIZE	1				// 送信単位
-#define LINE_WAIT	250				// 行単位のウェイト(ms)
-#define CHAR_WAIT	12				// 1文字単位のウェイト(ms)
+#define LINE_WAIT	18				// 行単位のウェイト(ms)
+#define CHAR_WAIT	18				// 1文字単位のウェイト(ms)
 #define MAXLINENUM	512				// 1行の最大文字数
 
 // メインルーチン
