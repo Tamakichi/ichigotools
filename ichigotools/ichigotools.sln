@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rsave", "rsave\rsave.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rcmd", "rcmd\rcmd.vcxproj", "{77258093-A390-4C27-873E-C34EC55D17E1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "macro_setup", "macro_setup\macro_setup.vcxproj", "{9261A582-9865-4428-BF38-5269B4D29EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{77258093-A390-4C27-873E-C34EC55D17E1}.Debug|Win32.Build.0 = Debug|Win32
 		{77258093-A390-4C27-873E-C34EC55D17E1}.Release|Win32.ActiveCfg = Release|Win32
 		{77258093-A390-4C27-873E-C34EC55D17E1}.Release|Win32.Build.0 = Release|Win32
+		{9261A582-9865-4428-BF38-5269B4D29EFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9261A582-9865-4428-BF38-5269B4D29EFC}.Debug|Win32.Build.0 = Debug|Win32
+		{9261A582-9865-4428-BF38-5269B4D29EFC}.Release|Win32.ActiveCfg = Release|Win32
+		{9261A582-9865-4428-BF38-5269B4D29EFC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
