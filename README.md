@@ -99,7 +99,7 @@ C:\ichogotoolsのフォルダを開きmacro_setup_1.bat をメモ帳で編集し
 
     set port=com5
     set sakura=C:\tools\sakura2-1-1-3_x64
-    set macro=%sakura\macro
+    set macro=%sakura%\macro
 
 シリアルポート番号(com5)を各自の環境合わせて修正して下さい。  
 sakura=にサクラエディタのインストールフォルダを指定してください。   
