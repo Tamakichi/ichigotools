@@ -17,6 +17,7 @@
 ![top](./ichigotools/img/05.jpg)  
 
 **※ichigotoolsの利用については、Wikiページも参照下さい。**  
+https://github.com/Tamakichi/ichigotools/wiki
 
 ## 利用環境
 - IchigoJam本体(ファームウェア V1.2.1以降推奨)  
