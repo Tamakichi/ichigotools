@@ -1,5 +1,5 @@
 # ichigotools
-##IchigoJam支援コマンド Windows版
+## IchigoJam支援コマンド Windows版
 
 ## 概要
 - コマンドプロンプト上で利用するキャラクタインタフェースのコマンドです。  
